@@ -180,9 +180,6 @@ main div label {
         height: 100px;
     }
 
-    footer{
-        margin-left: 100px;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -209,9 +206,6 @@ main div label {
         margin-bottom: 10px;
     }
 
-    footer {
-        margin-left: 200px;
-    }
 
 }
 
