@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(../assets/img/fondo/fondo\ principal.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    
+}
+
+footer {
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#cuerpocontacto {
+    background-image: url(../assets/img/fondo/Diseño\ sin\ título\ .png);
+    background-size: cover;
+    height: 65vh;
+}
+
+main div label {
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logowp {
+    margin-right: 10px;
+}
+
+.logowp img {
+    width: 30px;
+    height: 30px;
+}
+
+.linkwp {
+    display: grid;
+    place-items: center;
+}
+
+.linkwp a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.imagen_estudios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.imagen_estudios img {
+    height: 60%;
+}
+
+.container-fluid{
+    --bs-gutter-x: 0;
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .imagenes_estudios {
+        height: 50%;
+    }
+
+    .texto {
+        font-size: 1rem;
+    }
+
+    body {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .texto {
+        font-size: 1rem;
+        align-items: center;
+    }
+}
