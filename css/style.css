@@ -8,8 +8,6 @@
 body {
     background-image: url(../assets/img/fondo/fondo\ principal.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -93,7 +91,7 @@ main div label {
 }
 
 .container-fluid{
-    --bs-gutter-x: 0;
+    --bs-gutter-x: 1rem;
 }
 
 @media (max-width: 600px) {
@@ -119,5 +117,19 @@ main div label {
     .texto {
         font-size: 1rem;
         align-items: center;
+    }
+
+    .container-fluid{
+        --bs-gutter-x: 3rem;
+    }
+
+    .footer{
+        margin-bottom: -10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+    #footercontacto{
+        margin-left: -200px;
     }
 }
